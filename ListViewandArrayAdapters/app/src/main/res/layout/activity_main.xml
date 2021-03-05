@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="#FBF8F8"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/iamgeviewid"
+        android:layout_width="263dp"
+        android:layout_height="181dp"
+        android:rotation="-25"
+        android:src="@drawable/lottery" />
+
+    <TextView
+        android:id="@+id/textviewid"
+        android:layout_width="wrap_content"
+        android:layout_height="127dp"
+        android:layout_marginTop="80dp"
+        android:text="Check  Lottery"
+        android:textColor="#191819"
+        android:textSize="50dp"
+        android:textStyle="bold|italic"
+        app:fontFamily="@font/bungee_shade" />
+
+    <TextView
+        android:id="@+id/textviewid2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="By AREFIN AHMED"
+        android:textColor="#191819"
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+       />
+
+
+</LinearLayout>

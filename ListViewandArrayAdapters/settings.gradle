@@ -1,0 +1,2 @@
+rootProject.name='ListView and Array Adapters'
+include ':app'

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_marginTop="15dp"
+        android:hint="Enter Your name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edittextid"
+      />
+    <EditText
+        android:layout_marginTop="15dp"
+        android:hint="Enter Your Age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edittextidtwo"
+        />
+
+
+    <Button
+        android:layout_marginTop="15dp"
+        android:hint="Save Data"
+        android:background="#E91E63"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonid"
+      />
+
+    <Button
+        android:layout_marginTop="15dp"
+        android:hint="Load Data"
+        android:textStyle="bold"
+        android:background="#E91E63"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/loadbtnid"
+      />
+
+</LinearLayout>

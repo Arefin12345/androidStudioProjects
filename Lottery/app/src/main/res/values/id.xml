@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<item name="item1" type="id"></item>
+<item name="item2" type="id"></item>
+<item name="item3" type="id"></item>
+
+<item name="home" type="id"></item>
+<item name="howto" type="id"></item>
+<item name="information" type="id"></item>
+</resources>

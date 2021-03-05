@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "Androdi material snackbar 16 october"

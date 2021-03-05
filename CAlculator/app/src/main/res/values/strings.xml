@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="edit_text1">Enter number 1 : </string>
+    <string name="edit_text2">Enter number 2 : </string>
+    <string name="button">+</string>
+    <string name="button2">-</string>
+    <string name="sum"></string>
+    <item name="button2" type="id" />
+</resources>

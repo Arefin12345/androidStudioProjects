@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:padding="10dp"
+        android:background="#009688"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:text="Guessing Game"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:id="@+id/edittextid"
+        android:layout_marginTop="50dp"
+        android:hint="Guess The Number Here "
+        />
+
+    <Button
+        android:text="Check"
+        android:id="@+id/btnid"
+        android:background="#009688"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/won"
+        android:textAlignment="center"
+        android:id="@+id/resulttextid"
+        android:layout_gravity="center"
+        />
+
+</LinearLayout>

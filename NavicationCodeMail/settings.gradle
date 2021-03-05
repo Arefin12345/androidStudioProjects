@@ -1,0 +1,2 @@
+rootProject.name='Navication Code Mail'
+include ':app'

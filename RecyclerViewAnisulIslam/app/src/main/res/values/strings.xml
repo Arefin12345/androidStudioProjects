@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Recycler View AnisulIslam</string>
+    
+    <string-array name="names">
+        <item>Spongebob</item>
+        <item>eklndj</item>
+        <item>eklndj</item>
+        <item>ekcdccdlndj</item>
+        <item>eklcdcdndj</item>
+        <item>cdcdc</item>
+    </string-array>
+
+    <string-array name="names_desc">
+        <item>Spongebob</item>
+        <item>eklndj</item>
+        <item>eklndj</item>
+        <item>ekcdccdlndj</item>
+        <item>eklcdcdndj</item>
+        <item>cdcdc</item>
+    </string-array>
+</resources>

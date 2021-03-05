@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    tools:context=".Menu"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="150dp"
+        android:fontFamily="@font/baloo"
+        android:text="Lotterica"
+        android:textSize="50sp"
+        android:textStyle="bold|italic"
+        app:fontFamily="@font/baloo_bhai"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:text="Put your lottery numbers below:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.452" />
+
+    <EditText android:layout_height="39dp"
+        android:layout_width="328dp"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="50dp"
+        android:id="@+id/editTextone"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        android:textColorHint="#534949"
+        android:paddingLeft="10dp"
+        android:hint='Put numbers seperated by "," (ex:12,23)'
+        android:background="@drawable/rounded_edittext"
+        android:digits="0123456789.,"
+        android:inputType="number"/>
+
+    <Button
+        android:id="@+id/scanbuttononeid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/rounded_button"
+        android:drawableLeft="@drawable/ic_camera"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Scan Numbers"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextone" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:text="Put lucky lottery numbers below:"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTwo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextone"
+        app:layout_constraintVertical_bias="0.871" />
+
+    <EditText
+        android:layout_height="39dp"
+        android:layout_width="328dp"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="150dp"
+        android:id="@+id/editTextTwo"
+        app:layout_constraintTop_toBottomOf="@+id/editTextone"
+        android:textColorHint="#534949"
+        android:paddingLeft="10dp"
+        android:hint='Put numbers seperated by "," (ex:12,23)'
+        android:background="@drawable/rounded_edittext"
+        android:digits="0123456789.,"
+        android:inputType="number"/>
+
+    <Button
+        android:id="@+id/scanbuttonidtwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/rounded_button"
+        android:drawableLeft="@drawable/ic_camera"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Scan Numbers"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTwo" />
+
+    <TextView
+        android:id="@+id/textviewshwId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/checkbuttonid"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scanbuttonidtwo" />
+
+    <Button android:layout_height="78dp"
+        android:layout_width="115dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textStyle="bold"
+        android:text="Check"
+        android:layout_marginTop="65dp"
+        android:id="@+id/checkbuttonid"
+        app:layout_constraintTop_toBottomOf="@+id/scanbuttonidtwo"
+        android:background="@drawable/rounded_button_two"
+        android:textColor="#FFFFFF"/>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_height="70dp"
+        android:layout_width="match_parent"
+        android:id="@+id/menu_navigation"
+        android:background="@drawable/rounded"
+        app:menu="@menu/menu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:itemTextColor="@color/navcolor"
+        app:itemIconTint="@color/navcolor"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

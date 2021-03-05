@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "152822495600",
+    "firebase_url": "https://fiebase-image.firebaseio.com",
+    "project_id": "fiebase-image",
+    "storage_bucket": "fiebase-image.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:152822495600:android:a3d29f0d9a99eea4fb77b5",
+        "android_client_info": {
+          "package_name": "com.example.fiebaseimage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "152822495600-aksj0ft5jp4n9mu1dtkh6r1jlk3c4r38.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.fiebaseimage",
+            "certificate_hash": "9015d15757dcbb4b4395fc3289fa0b020dc29a1e"
+          }
+        },
+        {
+          "client_id": "152822495600-l6j36melcfnu2r52trkefunqtam2r7a0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXhyUoOuP_XB8DwLdQCxmTslfpvtpJ7ls"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "152822495600-l6j36melcfnu2r52trkefunqtam2r7a0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,2 @@
+rootProject.name='MyRelative Layout'
+include ':app'

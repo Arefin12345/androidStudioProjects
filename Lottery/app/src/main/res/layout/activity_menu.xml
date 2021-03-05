@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menu">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="150dp"
+        android:text="Lotteria"
+        android:textSize="50sp"
+        android:textStyle="bold|italic"
+        app:fontFamily="@font/vampiro_one"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextone"
+        android:layout_width="328dp"
+        android:layout_height="39dp"
+        android:inputType="number"
+        android:digits="0123456789.,"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/rounded_edittext"
+        android:hint="Enter Your Lottery Numbers Here:"
+        android:paddingLeft="10dp"
+        android:textColorHint="#534949"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/scanbuttononeid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        android:textAllCaps="false"
+        android:drawableLeft="@drawable/ic_camera"
+        android:background="@drawable/rounded_button"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Scan  Numbers"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toStartOf="@+id/savebuttononeid"
+        app:layout_constraintTop_toBottomOf="@+id/editTextone" />
+
+
+    <Button
+        android:id="@+id/savebuttononeid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_button"
+        android:layout_marginRight="40dp"
+        android:text="Save"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextone" />
+
+    <EditText
+        android:id="@+id/editTextTwo"
+        android:layout_width="328dp"
+        android:layout_height="39dp"
+        android:inputType="number"
+        android:digits="0123456789.,"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/rounded_edittext"
+        android:hint="Enter Lucky Lottery Numbers Here:"
+        android:paddingLeft="10dp"
+        android:textColorHint="#534949"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextone" />
+
+    <Button
+        android:id="@+id/scanbuttonidtwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_button"
+        android:paddingLeft="10dp"
+        android:drawableLeft="@drawable/ic_camera"
+        android:layout_marginTop="20dp"
+        android:textAllCaps="false"
+        android:paddingRight="10dp"
+        android:text="Scan  Numbers"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toStartOf="@+id/savebuttontwo"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTwo" />
+
+
+    <Button
+        android:id="@+id/savebuttontwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_button"
+        android:layout_marginRight="40dp"
+        android:text="Save"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTwo" />
+
+
+    <Button
+        android:id="@+id/checkbuttonid"
+        android:layout_width="115dp"
+        android:layout_height="78dp"
+        android:layout_marginTop="76dp"
+        android:background="@drawable/rounded_button_two"
+        android:text="Check"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scanbuttonidtwo" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/menu_navigation"
+        android:background="@drawable/rounded"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        app:itemIconTint="@color/navcolor"
+        app:itemTextColor="@color/navcolor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:menu="@menu/menu"
+      />
+
+    <TextView
+        android:id="@+id/textViewtwoid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scanbuttonidtwo"
+        app:layout_constraintVertical_bias="0.035" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,2 @@
+rootProject.name='Hiding Title Bar'
+include ':app'
